@@ -13,12 +13,12 @@ class MainViewModel : ObservableObject{
     private var bag = Set<AnyCancellable>()
     
     private let model = MainModel()
-    @Published var mainData : [MainData] = []
+    @Published var mainData : MainData = MainData(id: "0", mainHeaderData: MainHeaderData(id: "0", congestion: 0, mainTitle: ""), mainArrivalData: [])
     
     init(){
         self.model.loadData()
             .sink{[weak self] data in
-                self?.mainData.append(contentsOf: data)
+                self?.mainData = data
             }
             .store(in: &self.bag)
     }
