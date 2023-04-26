@@ -9,7 +9,25 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        MainView()
+        TabView{
+            MainView()
+                .tabItem {
+                    Image(systemName: "house")
+                }
+            Color.gray
+                .tabItem{
+                    Image(systemName: "magnifyingglass")
+                }
+            Color.yellow
+                .tabItem{
+                    Image(systemName: "gearshape")
+                }
+        }
+        .accentColor(.black)
+        .onAppear{
+            UITabBar.appearance().itemWidth = 50.0
+            UITabBar.appearance().itemPositioning = .centered
+        }
     }
 }
 
