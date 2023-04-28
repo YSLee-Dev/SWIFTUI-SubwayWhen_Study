@@ -19,6 +19,11 @@ struct MainView: View {
                         .padding(EdgeInsets(top: 40, leading: 20, bottom: 0, trailing: 20))
                     GroupView(groupSelete: $seletedGroup)
                         .padding(EdgeInsets(top: 20, leading: 20, bottom: 0, trailing: 20))
+                    
+                    ForEach(self.viewModel.mainData.mainArrivalData, id: \.id){data in
+                        ArrivalView(data: data)
+                    }
+                    .padding(EdgeInsets(top: 20, leading: 20, bottom: 0, trailing: 20))
                 }
             }
         }

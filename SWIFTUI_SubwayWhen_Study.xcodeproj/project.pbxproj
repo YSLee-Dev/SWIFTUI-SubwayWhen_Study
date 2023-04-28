@@ -22,6 +22,7 @@
 		34BC4B1629F7E9A5005F56B4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BC4B1529F7E9A5005F56B4 /* ContentView.swift */; };
 		34BC4B1829F92457005F56B4 /* GroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BC4B1729F92457005F56B4 /* GroupView.swift */; };
 		34BC4B1A29F92674005F56B4 /* GroupViewButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BC4B1929F92674005F56B4 /* GroupViewButton.swift */; };
+		34BF9C5729FB62950036E029 /* ArrivalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BF9C5629FB62950036E029 /* ArrivalView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		34BC4B1529F7E9A5005F56B4 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		34BC4B1729F92457005F56B4 /* GroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupView.swift; sourceTree = "<group>"; };
 		34BC4B1929F92674005F56B4 /* GroupViewButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupViewButton.swift; sourceTree = "<group>"; };
+		34BF9C5629FB62950036E029 /* ArrivalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrivalView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 				34BC4B0C29F7DCD5005F56B4 /* MainView.swift */,
 				34BC4AFE29F7D418005F56B4 /* MainViewModel.swift */,
 				34BC4B0629F7D547005F56B4 /* MainModel.swift */,
+				34BF9C5829FBAC1B0036E029 /* ArrivalView */,
 				34BC4B1B29FA8C1D005F56B4 /* GroupView */,
 				34BC4B1229F7E391005F56B4 /* HeaderView */,
 				34BC4B0929F7DA4B005F56B4 /* Entity */,
@@ -130,6 +133,14 @@
 				34BC4B1929F92674005F56B4 /* GroupViewButton.swift */,
 			);
 			path = GroupView;
+			sourceTree = "<group>";
+		};
+		34BF9C5829FBAC1B0036E029 /* ArrivalView */ = {
+			isa = PBXGroup;
+			children = (
+				34BF9C5629FB62950036E029 /* ArrivalView.swift */,
+			);
+			path = ArrivalView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,6 +223,7 @@
 				34BC4B1129F7E2CA005F56B4 /* HeaderQuickMenuView.swift in Sources */,
 				34BC4AF129F7D3DD005F56B4 /* SWIFTUI_SubwayWhen_StudyApp.swift in Sources */,
 				34BC4B0729F7D547005F56B4 /* MainModel.swift in Sources */,
+				34BF9C5729FB62950036E029 /* ArrivalView.swift in Sources */,
 				34BC4B0329F7D466005F56B4 /* MainHeaderData.swift in Sources */,
 				34BC4B0529F7D4C2005F56B4 /* MainArrivalData.swift in Sources */,
 				34BC4AFF29F7D418005F56B4 /* MainViewModel.swift in Sources */,

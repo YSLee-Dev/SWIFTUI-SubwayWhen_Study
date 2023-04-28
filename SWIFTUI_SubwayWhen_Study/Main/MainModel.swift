@@ -34,6 +34,14 @@ class MainModel{
                             line: "3호선",
                             time: "1분",
                             destination: "오금행"
+                        ),
+                        MainArrivalData(
+                            id: "Gwanggyo",
+                            stationName: "광교역",
+                            now: "대기중",
+                            line: "신분당선",
+                            time: "2분",
+                            destination: "신사행"
                         )
                      ]
                     )

@@ -36,6 +36,8 @@ struct GroupView: View {
                                    height: 40,
                                    alignment: .center
                             )
+                            .background(.white)
+                            .cornerRadius(15)
                             .overlay{
                                 RoundedRectangle(cornerRadius: 15)
                                     .strokeBorder()
